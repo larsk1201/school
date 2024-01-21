@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin-bottom: -75px;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+.active {
+    background-color: #777;
+    color: white;
+}
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: -200px;
+    padding: 20px;
+}
+h1 {
+    font-size: 28px;
+}
+.portfolio-item img {
+    max-height: 50%;
+    max-width: auto;
+}
+.portfolio-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.fileupload {
+    border-radius: 8px;
+    background-color: #fff;
+}
+.portfolio-item h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+label {
+    display: inline-block;
+    width: 150px;
+}
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+main form {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+.executed {
+    margin-left: 300px;
+}
+.bugfooter {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    position: static    ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.editorcontainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}

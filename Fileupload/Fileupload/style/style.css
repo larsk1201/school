@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Pirate;
+    src: url("../font/Pirates.ttf");
+}
+
+body{
+    background-image: url("../img/Bg.jpg");
+    background-size: cover;
+    font-family: verdana, helvetica, sans-serif;
+}
+
+#main{
+    margin: 0 auto; 
+    width: 400px;
+    min-height: 500px;
+    background-color: rgba(170, 170, 170, 0.9);
+    border-radius: 25px;
+    padding: 20px;
+    overflow: visible;
+}
+
+#title{
+    font-family: Pirate, sans-serif;
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}
+
+#logo{
+    width: 400px;
+}
+
+.image{
+    width: 400px;
+}
