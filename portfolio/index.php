@@ -15,7 +15,16 @@
     ?>
     <div class="container">
         <div class="portfolio-item">
-            <p>Tekst</p>
+            <a href="portfolioItems/Feedback Lars Kuijer Portfolio.docx"><img src="images/feedback-1.jpg" alt="feedback"></a>
+        </div>
+        <div class="portfolio-item">
+            <a href="portfolioItems/Plan van aanpak M3T.docx"><img src="images/PLAN-VAN-AANPAK-320x320.jpg" alt="plan van aanpak"></a>
+        </div>
+        <div class="portfolio-item">
+            <a href="portfolioItems/Vergadertechnieken"><img src="images/Vergadering.jpg" alt="plan van aanpak"></a>
+        </div>
+        <div class="portfolio-item">
+            <a href="portfolioItems/Vergadertechnieken"><img src="images/Presenteren-kun-je-leren.jpg" alt="plan van aanpak"></a>
         </div>
     </div>
     <footer>
